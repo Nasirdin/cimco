@@ -73,14 +73,13 @@ h2.title {
 }
 
 .home__title {
-  padding-top: 162px;
   font-size: 48px;
   font-weight: 500;
   max-width: 452px;
   text-decoration: underline;
   color: #fff;
   position: absolute;
-  right: 0;
+  left: 0;
 }
 
 .col-md-6 img {

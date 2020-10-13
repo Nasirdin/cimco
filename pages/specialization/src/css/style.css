@@ -73,6 +73,7 @@ h2.title {
 }
 
 .home__title {
+  padding-top: 100px;
   font-size: 48px;
   font-weight: 500;
   max-width: 452px;

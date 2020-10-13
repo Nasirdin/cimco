@@ -1,0 +1,20 @@
+.footer {
+  padding: 96px 0;
+  background-color: #000;
+  &__navbar {
+    display: flex;
+    justify-content: start;
+    .link {
+      margin-right: 120px;
+      li {
+        margin-bottom: 5px;
+        a {
+          &:hover {
+            color: #9f9f9f;
+            transition: .2s all;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.overlay .box {
+  position: relative;
+  text-align: center;
+  background: rgba(177, 177, 177, 0.7);
+  width: 400px;
+  margin: 150px auto;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+.overlay .box h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+.overlay .box form {
+  display: flex;
+  flex-direction: column;
+}
+.overlay .box form input {
+  outline: none;
+  width: 220px;
+  height: 35px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #757575;
+}
+.overlay .box form .date::-webkit-calendar-picker-indicator {
+  display: none;
+}
+.overlay .box form .block {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 220px;
+}
+.overlay .box form .btn {
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.overlay .box form .btn:hover {
+  background: #b1b1b1;
+  color: #333;
+}
+.overlay .contact {
+  position: relative;
+  text-align: center;
+  background: rgba(177, 177, 177, 0.7);
+  width: 400px;
+  margin: 150px auto;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+.overlay .contact ul {
+  display: flex;
+  justify-content: center;
+}
+.overlay .contact ul li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.overlay .contact ul li img {
+  width: 30px;
+  height: 30px;
+}
+.overlay .contact ul li img:hover {
+  transform: rotate(360deg);
+}
+.overlay .close {
+  top: 0;
+  right: -20px;
+  width: 20px;
+  height: 2px;
+  background: none;
+  position: absolute;
+  cursor: pointer;
+}
+.overlay .close:before {
+  content: "";
+  width: 25px;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  transform: rotate(45deg);
+}
+.overlay .close:after {
+  content: "";
+  width: 25px;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  transform: rotate(-45deg);
+}

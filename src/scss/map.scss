@@ -1,0 +1,32 @@
+.map {
+  overflow: hidden;
+  position: relative;
+  height: 635px;
+  iframe {
+    border: none;
+    z-index: 0;
+    position: absolute;
+  }
+
+  .box {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  .content{
+    max-width: 440px;
+    position: absolute;
+    right: 15px;
+  }
+  .title {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  p {
+    color: #fff;
+  }
+}

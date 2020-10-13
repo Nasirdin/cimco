@@ -1,0 +1,23 @@
+.section-1{
+  overflow: hidden;
+  background: url("../img/whatwedo-bg.jpg") center/cover;
+  position: relative;
+  height: 75vh;
+  z-index: -1;
+  .box{
+    top: 0;
+    left: 0;
+    width: 49.5%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+  }
+  .container{
+    padding-top: 260px;
+  }
+  .title-big{
+    text-align: left;
+    position: absolute;
+  }
+}

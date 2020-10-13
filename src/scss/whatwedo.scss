@@ -1,0 +1,13 @@
+.whatwedo{
+  padding: 0 15px 100px;
+  overflow: hidden;
+  .col-md-6{
+    &:nth-child(1){
+      padding-right: 50px;
+      padding-left: 0;
+    }
+    &:nth-child(2){
+      padding-right: 0;
+    }
+  }
+}

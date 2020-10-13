@@ -1,0 +1,96 @@
+@import url(../fonts/roboto/stylesheet.css);
+@import url(../css/bootstrap-grid.min.css);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #828282;
+}
+ul,li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.nav-active{
+  color: #9f9f9f;
+  &:after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #9f9f9f;
+    bottom: 0;
+    left: 0;
+  }
+}
+.container{
+  padding: 0 10px;
+  position: relative;
+  max-width: 1159px;
+  margin: 0 auto;
+}
+.home-container{
+  padding: 0 10px;
+  max-width: 1232px;
+  margin: 0 auto;
+  position: relative;
+}
+.home__title{
+  padding-top: 162px;
+  font-size: 48px;
+  font-weight: 500;
+  max-width: 452px;
+  text-decoration: underline;
+  color: #fff;
+  position: absolute;
+  right: 0;
+}
+h2.title{
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 140%;
+  color: #F2994A;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+@media (max-width: 540px) {
+  h2.title{
+    font-size: 30px;
+  }
+}
+@media (max-width: 415px) {
+  h2.title{
+    font-size: 26px;
+  }
+}
+.text-1{
+  color: #333333;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.col-md-6{
+  img{
+    width: 100%;
+  }
+}
+
+@import "header";
+@import "home";
+@import "about";
+@import "whatwedo";
+@import "specializations";
+@import "news";
+@import "map";
+@import "footer";
+@import "media";
+@import "overlay";
+//0702437070-Asel

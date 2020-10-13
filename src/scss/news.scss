@@ -1,0 +1,23 @@
+.news{
+  padding-bottom: 100px;
+  overflow: hidden;
+  .col-lg-6{
+    &:nth-child(1){
+      padding-left: 0;
+      margin-bottom: 50px;
+    }
+    &:nth-child(2){
+      align-items: center;
+      padding-right: 0;
+      margin-bottom: 50px;
+    }
+    &:nth-child(3){
+      padding-left: 0;
+
+    }
+    &:nth-child(4){
+      align-items: center;
+      padding-right: 0;
+    }
+  }
+}

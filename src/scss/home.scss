@@ -1,0 +1,45 @@
+.home{
+  overflow: hidden;
+  &__block_1{
+    background: url("../img/home/home-bg-1.jpg") center/cover;
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+    .box{
+      position: absolute;
+      width: 47%;
+      height: 100%;
+      right: 0;
+      color: white;
+      background: rgba(0, 0, 0, 0.4);
+    }
+  }
+  &__block_2{
+    color: #fff;
+    padding: 50px 0;
+    background: url("../img/home/home-bg-2.jpg") center/cover;
+    .title{
+      color: #fff;
+      text-decoration: underline;
+      font-size: 36px;
+      margin-bottom: 50px;
+    }
+    .include{
+      display: flex;
+      justify-content: space-around;
+      li{
+        p{
+          text-align: center;
+          font-weight: 500;
+          font-size: 48px;
+          &:nth-child(2){
+            font-size: 16px;
+          }
+        }
+        .in{
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

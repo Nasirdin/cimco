@@ -1,0 +1,29 @@
+.section-2{
+  overflow: hidden;
+  padding: 100px 15px;
+  .col-md-6{
+    &:nth-child(1){
+      padding-left: 0;
+      padding-right: 50px;
+    }
+    &:nth-child(2){
+      padding-right: 0;
+    }
+    .col-3{
+      .block{
+        margin: 0 auto 20px auto;
+        width: 80px;
+        height: 80px;
+        border: 1px solid #f2f2f2;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.04), 0 2px 6px rgba(0, 0, 0, 0.04), 0 0 1px rgba(0, 0, 0, 0.04);
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+      }
+      p{
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

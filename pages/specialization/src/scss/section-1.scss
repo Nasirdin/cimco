@@ -1,0 +1,22 @@
+.section-1{
+  overflow: hidden;
+  background: url("../img/bg.jpg") center/cover;
+  position: relative;
+  height: 75vh;
+  z-index: -1;
+  .box{
+    top: 0;
+    left: 0;
+    width: 65%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0,0,0,0.4);
+    z-index: 0;
+  }
+  .title-big{
+    text-align: left;
+    max-width: 60%;
+    position: absolute;
+    margin-top: 170px;
+  }
+}
